@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/604374b1e0.js" crossorigin="anonymous"></script>
+
+    <title>Mi primer portafolio</title>
+
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-sm mb-5">
+
+        <div class="container">
+
+            <a class="navbar-brand text-primary fs-1 fst-italic fw-bold" href="#">PeterParker</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAlMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+
+                <div class="navbar-nav">
+
+                    <a class="nav-link" aria-current="page" href="#Inicio">Inicio</a>
+                    <a class="nav-link" href="#Mis-habilidades">Mis habilidades</a>
+                    <a class="nav-link" href="#Mis-proyectos">Proyectos</a>
+                    <a class="nav-link" href="#Contactame">Contacto</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <article id="Inicio" class="container">
+
+        <main class="d-flex flex-column align-items-center main">
+
+            <div class="row">
+
+                <div class="col-6 col-md-6">
+
+                    <img src="assets/img/developer.svg" alt="Developer" class="w-100 mb-5">
+
+
+                </div>
+
+                <div class="col-6 co-md-6 d-flex flex-column justify-content-center">
+
+                    <h1 class="text-primary">Soy Peter Parker</h1>
+                    <h2 class="text-secondary">Desarrollador FrontEnd</h2>
+                    <p class="w-100">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas debitis tenetur fugit. Quam illo fugit assumenda iure quasi ex, est veritatis voluptate voluptas quas nihil, sunt, nobis doloribus quia nam magnam cupiditate architecto at a. Et ex quisquam placeat sint!</p>
+
+                    <button class="btn btn-primary mb-5 contact-btn">Contáctame</button>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <section>
+
+            <h2 class="text-center mb-5 text-primary w-100" id="Mis-habilidades">Mis habilidades</h2>
+
+            <div class="row">
+
+                <div class="col skills">
+
+                    <span><i id="html-icon" class="fa-brands fa-html5"></i>HTML</span>
+                    <span><i id="css-icon" class="fa-brands fa-css3-alt"></i>CSS</span>
+                    <span><i id="sass-icon" class="fa-brands fa-sass"></i>SASS</span>
+                    <span><i id="bootstrap-icon" class="fa-brands fa-bootstrap"></i>Bootstrap</span>
+                
+                </div>
+
+                <div class="col skills">
+
+                    <span><i id="git-icon" class="fa-brands fa-git-alt"></i>Git</span>
+                    <span><i id="github-icon" class="fa-brands fa-github"></i>GitHub</span>
+                    <span><i id="js-icon" class="fa-brands fa-js"></i>Javascript</span>
+                    <span><i id="vue-icon" class="fa-brands fa-vuejs"></i>Vue</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="proyectos">
+
+            <h2 class="text-center my-5 text-primary w-100" id="Mis-proyectos">Mis Proyectos</h2>
+
+            <div class="row">
+
+                <div class="col-6 col-md-3">
+
+                    <img src="assets/img/meetcoffee.png" alt="" class="proyectos__img">
+                    <h5 class="proyectos__title">Meet & Coffee</h5>
+
+                </div>
+                <div class="col-6 col-md-3">
+
+                    <img src="assets/img/meetcoffee.png" alt="" class="proyectos__img">
+                    <h5 class="proyectos__title">Meet & Coffee</h5>
+
+                </div>
+                <div class="col-6 col-md-3">
+
+                    <img src="assets/img/meetcoffee.png" alt="" class="proyectos__img">
+                    <h5 class="proyectos__title">Meet & Coffee</h5>
+
+                </div>
+                <div class="col-6 col-md-3">
+
+                    <img src="assets/img/meetcoffee.png" alt="" class="proyectos__img">
+                    <h5 class="proyectos__title">Meet & Coffee</h5>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section>
+
+            <h2 class="text-center my-5 text-primary w-100" id="Contactame">Contáctame</h2>
+
+            <div class="row">
+
+                <div class="col-12 col-md-6">
+
+                    <form class="mt-4">
+
+                        <div class="row">
+
+                            <div class="col">
+
+                                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+
+                            </div>
+
+                            <div class="col">
+
+                                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+
+                            </div>
+
+                        </div>
+
+                        <div class="my-3">
+
+                            <input type="text" class="form-control" placeholder="Tu Email" id="exampleFormControlInput1">
+
+                        </div>
+
+                        <div class="my-3">
+
+                            <textarea class="form-control" id="exampleFormControlTextarea1"  rows="3" placeholder="Escribe tu mensaje"></textarea>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-primary contact-btn mb-5">Enviar</button>
+
+                    </form>
+
+                </div>
+
+                <div class="col-12 col-md-6 d-flex flex-column text-primary">
+
+                    <p><i class="fa-solid fa-phone me-4"></i>+569 43904593</p>
+                    <p><i class="fa-solid fa-envelope me-4"></i>peterparker@gmail.com</p>
+                    <p><i class="fa-brands fa-linkedin me-4"></i>PeterParker</p>
+                    <p><i class="fa-brands fa-github me-4"></i>PetParker</p>
+                    <p><i class="fa-brands fa-instagram me-4"></i>Peter_Parker24</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </article>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+    
+</body>
+</html>
